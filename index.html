@@ -1,0 +1,20 @@
+<html>
+      <body>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script>
+        $.getJSON( "objects.json", function(objects) {
+          $.each(objects, function(name, attributes) {
+            document.write("<h2>" + URL + "</h2>");
+            document.write("Date created: " + attributes["created"] + "<br />");
+            document.write("Date modified: " + attributes["modified"] + "<br />");
+            document.write("Scope note: " + attributes["note"] + "<br />");
+            document.write("Broader term: " + attributes["bt"] + "<br />");
+            document.write("Related term: " + attributes["rt"] + "<br />");
+            document.write("Equivalent term: " + attributes["rtet"] + "<br />");
+            document.write("Use instead: " + attributes["use"] + "<br />");
+            document.write("Used for: " + attributes["uf"] + "<br />");
+          });
+        })
+        </script>
+      </body>
+    </html>

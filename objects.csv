@@ -1,0 +1,5 @@
+---
+---
+URL,DateCreated,DateModified,ScopeNote,BroaderTerm,RelatedTerm,EquivalentTerm,UseInstead,UsedFor
+{% for url in site.data.objects %}{{ url[0] }},{{ url[1].created }},{{ url[1].modified }},{{ url[1].note }},{{ url[1].bt }},{{ url[1].rt }},{{ url[1].rtet }},{{ url[1].use }},{{ url[1].uf }}
+{% endfor %}
