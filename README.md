@@ -39,8 +39,7 @@ Each quarter, we also post the URLs here in Github in three files.
 
 1. [Alphabetic](/government-urls-alphabetic-list.txt)&mdash;an A-Z list of URLs with accompanying notes and relationships collected over time.
 2. [Hierarchical](/government-urls-hierarchical-list.txt)&mdash;a flat list of URLs segmented by category (see BT description in the following section).
-3. [YAML](/government-urls.yaml)&mdash;a mapping file of the URLs for applications.
-
+3. [YAML](/data/government_urls.yml)&mdash;a mapping file of the URLs for applications (also in [JSON](http://gsa.github.io/govt-urls/government_urls.json)).
 
 Cross reference symbols that you'll find in the alphabetic list include:
 
