@@ -1,8 +1,10 @@
 # About
 
-This repo contains the list of public government managed domains that exist outside of the top-level .gov and .mil domains. Please see https://search.gov/about/policy/govt-urls.html for full information on the effort.
+Most U.S. government websites end in .gov or .mil, but some end in .com, .org, .net, or other top-level domains. This repo contains a list of government domains that do not end in .gov or .mil. 
 
-# Contributing
+[OMB M-22-09: Federal Zero Trust Strategy (PDF, 29 pages, 913 KB)](https://www.whitehouse.gov/wp-content/uploads/2022/01/M-22-09.pdf) requires federal executive branch agencies to submit non-.gov or .mil domains for inclusion in this list.
+
+# How to contribute
 
 ## Review the list
 
@@ -17,22 +19,26 @@ The list is availble in multiple views:
 1. [Native Sovereign Nation government only](7_govt_urls_native_sovereign_nations_only.csv)
 1. [Quasigovernmental domains only](8_govt_urls_quasigovernmental_only.csv)
 
-Deprecated and other out of use domains [will be removed](https://github.com/GSA/govt-urls-master/9_govt_urls_not_used.csv) as they are discovered.
+[Deprecated and other out of use domains](https://github.com/GSA/govt-urls-master/9_govt_urls_not_used.csv) are removed as they are discovered.
 
-## Send your contributions
+## Submit a domain
+You can submit a domain to the list by [opening a GitHub issue](https://github.com/GSA/govt-urls/issues). We review all submissions before including them on the list.
 
-We welcome updates and additions. [Submit a new issue](https://github.com/GSA/govt-urls/issues) to contribute directly to this list or email us at <search@support.digitalgov.gov>. We also welcome [pull requests](https://github.com/GSA/govt-urls/pulls).
+# Understand the scope
 
-Please include:
+## What is included in the list?
+* Federal government agency websites.
+* Federal home loan banks.
+* Federal reserve banks and branches.
+* Federal libraries, archives, and museums, including Presidential libraries.
+* Federal task forces (such as the Preventive Services Task Force) and commissions (such as the 9/11 Commission).
+* Department of Defense websites for recruiting and service academies.
 
-* Domain
-* Federal agency responsible for the website, if applicable
-* Level of Government (Federal, State, Regional, County, Local, Native Sovereign Nation, or Quasigovernmental)
-* Location (State), if applicable
-* A note about the purpose or scope of the website
+## What is not included in the list?
+* .gov domains – these are managed by the [.gov registry](https://get.gov/).
+* .mil domains – these are managed by the [DOD Unified Registration System](https://www.defense.gov/Resources/Register-a-Site/).
+* Subdomains or folders that are already covered by a higher-level domain.
 
-Note that totally new websites [must be within .gov or .mil](https://policy.cio.gov/web-policy/domain/), pre-existing websites may be submitted for an exception ([see Section E](https://policy.cio.gov/web-policy/domain/)).
-
-# The old API
+# Find the deprecated API
 
 If you're looking for the API that used to be located in this repo, we've [archived it in a branch](https://github.com/GSA/govt-urls/tree/pre-deprecation-release).
