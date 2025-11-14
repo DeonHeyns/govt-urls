@@ -8,7 +8,7 @@ Most U.S. government websites end in .gov or .mil, but some end in .com, .org, .
 
 ## Review the list
 
-The list is availble in multiple views:
+The list is available in multiple views:
 
 1. [The full list](/1_govt_urls_full.csv)
 1. [Federal government only](/2_govt_urls_federal_only.csv)
